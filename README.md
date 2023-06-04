@@ -1,7 +1,7 @@
 # Beating 2048 with python
 This project contains two parts
 <ol>
-  <li>Recreating the popular game 2048 with python in the terminal with human readable output.</li>
+  <li>Recreating the popular game 2048 with python in the terminal with human readable output. The rules of the game are simple. You can move up, down, left, or right and the tiles move that direction and combine if adjacent tile has the same value. The goal is to combine tiles until you get 2048. To try out the game visit https://play2048.co.</li>
   <li>
     Creating an algorithm that suggests moves that can ultimatly beat the game. The algorithm I created beats the game about 30% of the time, which seems likely to be better than many humans. There are some things that could be done to improve the algorithm, but I suspect this within an order of magnitude of what is possible without a widely less effecient algorithm or entirely different approach (e.g., neural net).
   </li>
