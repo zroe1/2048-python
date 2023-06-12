@@ -8,6 +8,12 @@ This project contains two parts:
 </ol>
 In this README.md file, each of these components are explained in detail along with information about how to run the code on your own machine, and what you should expect to see if everything is working properly.
 
+## How the AI works
+
+The AI that I implemented to play 2048 a symbolic AI that works similarly on a high level to the famous IBM computer Deep Blue which beat world chess champion Garry Kasparov in 1997: https://stanford.edu/~cpiech/cs221/apps/deepBlue.html
+
+The approach the algorithm takes is it takes all possible sequences of three moves (excluding those that include moving up which is generally poor strategy) and then evaluates each sequence to see which will most likely leave the user in a favorable board position. After assigning point values to each board possition, the algorithm chooses the most favorable from the tree of possibilities and makes the first move in the sequence. The process restarts for every move.  
+
 ## Running the code
 This section assumes that you have a newer version of python installed on your computer. Outside of that, no extra software is needed.
 
